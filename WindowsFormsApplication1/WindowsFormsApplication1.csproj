@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{65DDA8B4-4168-4122-9B7F-A8B5CD5E2910}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\pluca\Desktop\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AB32B279FC6B64FBF445651FEA2CD36926B05E12</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsApplication1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IronPdf, Version=4.4.0.26167, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>src\IronPdf.dll</HintPath>
+    </Reference>
+    <Reference Include="NReco.PdfGenerator">
+      <HintPath>DLL\NReco.PdfGenerator.dll</HintPath>
+    </Reference>
+    <Reference Include="SplashScreen, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SplashScreen.Winforms.1.0.0\lib\SplashScreen.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\AddAnagraphic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\AddAnagraphic.designer.cs">
+      <DependentUpon>AddAnagraphic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\AddTorneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\AddTorneo.designer.cs">
+      <DependentUpon>AddTorneo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anagrafiche\Asd.cs" />
+    <Compile Include="Anagrafiche\Atleta.cs" />
+    <Compile Include="DAO\AtletaEliminatorie.cs" />
+    <Compile Include="BracketSedicesimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BracketSedicesimi.Designer.cs">
+      <DependentUpon>BracketSedicesimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BracketSedicesimi1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BracketSedicesimi.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CaricaGironiDaDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaricaGironiDaDisciplina.Designer.cs">
+      <DependentUpon>CaricaGironiDaDisciplina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreaGironiDaDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreaGironiDaDisciplina.Designer.cs">
+      <DependentUpon>CreaGironiDaDisciplina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\DeleteTorneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\DeleteTorneo.designer.cs">
+      <DependentUpon>DeleteTorneo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Anagrafiche\Disciplina.cs" />
+    <Compile Include="Resources\ExportPdf.cs" />
+    <Compile Include="Finali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finali.Designer.cs">
+      <DependentUpon>Finali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\FormattedString.cs" />
+    <Compile Include="Managment\GestioneAtleti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\GestioneAtleti.Designer.cs">
+      <DependentUpon>GestioneAtleti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\GironiConclusi.cs" />
+    <Compile Include="Resources\Helper.cs" />
+    <Compile Include="Anagrafiche\Incontro.cs" />
+    <Compile Include="Managment\ManageTournament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\ManageTournament.Designer.cs">
+      <DependentUpon>ManageTournament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\ModificaTorneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\ModificaTorneo.designer.cs">
+      <DependentUpon>ModificaTorneo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\ModifyAnagrafic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\ModifyAnagrafic.designer.cs">
+      <DependentUpon>ModifyAnagrafic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\PwdCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\PwdCheck.Designer.cs">
+      <DependentUpon>PwdCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managment\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managment\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ottavi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ottavi.Designer.cs">
+      <DependentUpon>Ottavi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\PdfManager.cs" />
+    <Compile Include="Anagrafiche\Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quarti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quarti.Designer.cs">
+      <DependentUpon>Quarti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportAtleti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportAtleti.Designer.cs">
+      <DependentUpon>ReportAtleti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OutputRisultatiEliminatorieTorneo.cs" />
+    <Compile Include="Report\OutputRisultatiTorneo.cs" />
+    <Compile Include="Report\ReportAssociazioni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportAssociazioni.Designer.cs">
+      <DependentUpon>ReportAssociazioni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report\ReportRisultatiTorneo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\ReportRisultatiTorneo.Designer.cs">
+      <DependentUpon>ReportRisultatiTorneo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\RisultatiIncontriGironi.cs" />
+    <Compile Include="Sedicesimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sedicesimi.Designer.cs">
+      <DependentUpon>Sedicesimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Semifinali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Semifinali.Designer.cs">
+      <DependentUpon>Semifinali.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anagrafiche\Torneo.cs" />
+    <Compile Include="ValidaEliminatorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidaEliminatorie.Designer.cs">
+      <DependentUpon>ValidaEliminatorie.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\AddAnagraphic.resx">
+      <DependentUpon>AddAnagraphic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\AddTorneo.resx">
+      <DependentUpon>AddTorneo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BracketSedicesimi.resx">
+      <Generator>ResXFileCodeGeneratorEx</Generator>
+      <LastGenOutput>BracketSedicesimi1.Designer.cs</LastGenOutput>
+      <DependentUpon>BracketSedicesimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaricaGironiDaDisciplina.resx">
+      <DependentUpon>CaricaGironiDaDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreaGironiDaDisciplina.resx">
+      <DependentUpon>CreaGironiDaDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\DeleteTorneo.resx">
+      <DependentUpon>DeleteTorneo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finali.resx">
+      <DependentUpon>Finali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\GestioneAtleti.resx">
+      <DependentUpon>GestioneAtleti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\ManageTournament.resx">
+      <DependentUpon>ManageTournament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\ModificaTorneo.resx">
+      <DependentUpon>ModificaTorneo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\ModifyAnagrafic.resx">
+      <DependentUpon>ModifyAnagrafic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\PwdCheck.resx">
+      <DependentUpon>PwdCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managment\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ottavi.resx">
+      <DependentUpon>Ottavi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar.resx">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Quarti.resx">
+      <DependentUpon>Quarti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportAtleti.resx">
+      <DependentUpon>ReportAtleti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportAssociazioni.resx">
+      <DependentUpon>ReportAssociazioni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\ReportRisultatiTorneo.resx">
+      <DependentUpon>ReportRisultatiTorneo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sedicesimi.resx">
+      <DependentUpon>Sedicesimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Semifinali.resx">
+      <DependentUpon>Semifinali.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidaEliminatorie.resx">
+      <DependentUpon>ValidaEliminatorie.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\bracket16.png" />
+    <Content Include="img\online.png" />
+    <Content Include="src\IronPdf.dll" />
+    <Content Include="src\IronPdf.XML" />
+    <Content Include="Tornei.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TorneiFemminile.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TorneiFemminile_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>TorneiFemminile.mdf</DependentUpon>
+    </Content>
+    <Content Include="TorneiTest.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TorneiTest_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>TorneiTest.mdf</DependentUpon>
+    </Content>
+    <Content Include="Tornei_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Tornei.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PDF\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
