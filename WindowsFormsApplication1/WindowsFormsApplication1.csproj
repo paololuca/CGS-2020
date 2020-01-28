@@ -68,9 +68,6 @@
     <Reference Include="NReco.PdfGenerator">
       <HintPath>DLL\NReco.PdfGenerator.dll</HintPath>
     </Reference>
-    <Reference Include="SplashScreen, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SplashScreen.Winforms.1.0.0\lib\SplashScreen.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />

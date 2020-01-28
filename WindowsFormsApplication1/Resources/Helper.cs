@@ -2167,7 +2167,7 @@ namespace WindowsFormsApplication1
                 if (idInserted > 0)
                 {
                     int rowAffected = InsertNewRanking(idInserted);
-
+                    //insert in ranking storico
                     if (rowAffected >= 1)
                         return idInserted;
                     else
@@ -2246,7 +2246,7 @@ namespace WindowsFormsApplication1
         {
             //TODO automatizzare dalla lettura della tabella Delle Discipline
             String date = "@date";
-            String commandtext = "INSERT INTO Ranking VALUES (" + idAtleta + ",0," + date + "," + date + ",0,1); " +
+            String commandtext =    "INSERT INTO Ranking VALUES (" + idAtleta + ",0," + date + "," + date + ",0,1); " +
                                     "INSERT INTO Ranking VALUES (" + idAtleta + ",0," + date + "," + date + ",0,2); " +
                                     "INSERT INTO Ranking VALUES (" + idAtleta + ",0," + date + "," + date + ",0,3); " +
                                     "INSERT INTO Ranking VALUES (" + idAtleta + ",0," + date + "," + date + ",0,4); " +

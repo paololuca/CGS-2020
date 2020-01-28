@@ -81,7 +81,7 @@ namespace WindowsFormsApplication1
             comboBoxNewAssociation.DataSource = allAsd.ToArray();
             comboBoxNewAssociation.ValueMember = "Id";
             this.comboBoxNewAssociation.DisplayMember = "NomeAsd";
-            comboBoxNewAssociation.SelectedIndex = idAsd;
+            comboBoxNewAssociation.SelectedIndex = allAsd.IndexOf(allAsd.First(x => x.Id == IdAsd));
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -115,9 +115,11 @@ namespace WindowsFormsApplication1
             String newSurname = textBoxNewSurname.Text;
             String sesso = radioButtonMale.Checked ? "M" : "F";
 
+            IdAsd = (int)comboBoxNewAssociation.SelectedValue;
+
             Atleta a = new Atleta()
             {
-                IdAsd = comboBoxNewAssociation.SelectedIndex,
+                IdAsd = IdAsd,
                 IdAtleta = IdAtleta,
                 Nome = newName,
                 Cognome = newSurname,

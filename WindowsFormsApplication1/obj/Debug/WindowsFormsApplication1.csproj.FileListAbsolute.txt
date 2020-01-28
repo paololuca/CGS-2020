@@ -55,43 +55,6 @@ E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Wind
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Semifinali.resources
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Finali.resources
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Tornei.mdf
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiTest.mdf
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiTest_log.ldf
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Tornei_log.ldf
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.manifest
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.application
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\IronPdf.dll
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NReco.PdfGenerator.dll
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\IronPdf.xml
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AboutBox.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddAnagraphicUser.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddTorneo.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CaricaGironiDaDisciplina.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CreaGironiDaDisciplina.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.DeleteTorneo.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Finali.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.EliminaAtleti.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ManageTournament.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ModificaTorneo.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ModifyAnagrafic.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Ottavi.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ProgressBar.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Quarti.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Sedicesimi.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Semifinali.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SplashForm.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ValidaEliminatorie.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.manifest
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.application
 D:\_Installer\saam\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 D:\_Installer\saam\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\_Installer\saam\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
@@ -135,17 +98,7 @@ E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Torn
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile_log.ldf
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportAssociazioni.resources
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile.mdf
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile_log.ldf
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.BracketSedicesimi.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportAssociazioni.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportRisultatiTorneo.resources
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportRisultatiTorneo.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportAtleti.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Settings.resources
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PwdCheck.resources
 D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Tornei.mdf
 D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile.mdf
 D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile_log.ldf
@@ -194,6 +147,50 @@ D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\De
 D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
 D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
-D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SplashScreen.dll
-D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
-H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\SplashScreen.dll
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Tornei.mdf
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile.mdf
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiFemminile_log.ldf
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiTest.mdf
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\TorneiTest_log.ldf
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Tornei_log.ldf
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.manifest
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.application
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\IronPdf.dll
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\NReco.PdfGenerator.dll
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\IronPdf.xml
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AboutBox.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddAnagraphicUser.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddTorneo.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.BracketSedicesimi.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CaricaGironiDaDisciplina.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.CreaGironiDaDisciplina.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.DeleteTorneo.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Finali.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.EliminaAtleti.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ManageTournament.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ModificaTorneo.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ModifyAnagrafic.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PwdCheck.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Settings.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Ottavi.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ProgressBar.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Quarti.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportAtleti.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportAssociazioni.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportRisultatiTorneo.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Sedicesimi.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Semifinali.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SplashForm.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ValidaEliminatorie.resources
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.manifest
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.application
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
