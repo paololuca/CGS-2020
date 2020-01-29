@@ -268,6 +268,8 @@ namespace WindowsFormsApplication1
                     temp = FormattedString.tableT4;
                 else if (l.Count == 5)
                     temp = FormattedString.tableT5;
+                else if (l.Count == 6)
+                    temp = FormattedString.tableT6;
 
                 temp = temp.Replace("##TournamentDate##", ""); //TODO ci va la data di inizio e fine torneo da DB
                 temp = temp.Replace("##a##", l[0].FullName);
@@ -280,17 +282,24 @@ namespace WindowsFormsApplication1
                 temp = temp.Replace("##Atleta_c_nome##", l[2].Asd + " - " + l[2].FullName);
                 temp = temp.Replace("##Atleta_d_nome##", l[3].Asd + " - " + l[3].FullName);
 
-                if(l.Count == 5)
+                if(l.Count >= 5)
                 {
                     temp = temp.Replace("##e##", l[4].FullName);
                     temp = temp.Replace("##Atleta_e_nome##", l[4].Asd + " - " + l[4].FullName);
+                }
+
+                if(l.Count == 6)
+                {
+                    temp = temp.Replace("##f##", l[5].FullName);
+                    temp = temp.Replace("##Atleta_f_nome##", l[5].Asd + " - " + l[5].FullName);
                 }
 
                 temp = temp.Replace("##TOURNAMENTNAME##", nomeTorneo + " - " + disciplina);
                 temp = temp.Replace("##NomeGirone##", "Girone " + i);
 
                 HtmlReport += temp;
-                if(i<gironi.Count)
+
+                if(i < gironi.Count)
                     HtmlReport += "<div style=\"page-break-after:always\"></div>";
 
                 i++;

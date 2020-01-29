@@ -135,6 +135,7 @@ namespace WindowsFormsApplication1
                     perso.IdAtleta = (int)r.Cells[0].Value;
                 }
 
+                //TODO il campo è da eliminare
                 Helper.EliminaFinaliByCampo(1, idTorneo, idDisciplina, (int)r.Cells[0].Value);
                 Helper.EliminaFinaliByCampo(1, idTorneo, idDisciplina, (int)r.Cells[5].Value);
 
@@ -185,6 +186,7 @@ namespace WindowsFormsApplication1
                     perso.IdAtleta = (int)r.Cells[0].Value;
                 }
 
+                //TODO il campo è da eliminare
                 Helper.EliminaFinaliByCampo(1, idTorneo, idDisciplina, (int)r.Cells[0].Value);
                 Helper.EliminaFinaliByCampo(1, idTorneo, idDisciplina, (int)r.Cells[5].Value);
 

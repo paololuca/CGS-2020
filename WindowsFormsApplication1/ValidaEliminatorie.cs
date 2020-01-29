@@ -92,7 +92,6 @@ namespace WindowsFormsApplication1
                             IdTorneo = (int)r.Cells[1].Value,
                             idDisciplina = (int)r.Cells[2].Value,
                             Posizione = posizione
-
                         }
                             );
                         posizione++;
@@ -112,6 +111,8 @@ namespace WindowsFormsApplication1
                     Helper.InsertOttavi(listaQualificati);
                 else if (atletiAmmessiEliminatorie == 8)
                     Helper.InsertQuarti(listaQualificati);
+                else if (atletiAmmessiEliminatorie == 4)
+                    Helper.InsertSemifinali(SetCampoForSemifinali(listaQualificati));
 
                 Helper.ConcludiGironi(idTorneo, idDisciplina);
 
@@ -121,6 +122,16 @@ namespace WindowsFormsApplication1
 
                 this.Close();
             }
+        }
+
+        private List<AtletaEliminatorie> SetCampoForSemifinali(List<AtletaEliminatorie> listaQualificati)
+        {
+            listaQualificati[0].Campo = 1;
+            listaQualificati[3].Campo = 1;
+            listaQualificati[1].Campo = 2;
+            listaQualificati[2].Campo = 2;
+
+            return listaQualificati;
         }
 
         private void buttonAnnulla_Click(object sender, EventArgs e)

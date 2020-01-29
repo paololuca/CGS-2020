@@ -1249,7 +1249,8 @@ namespace WindowsFormsApplication1
         }
         public static List<AtletaEliminatorie> GetSemifinali(int idTorneo, int idDisciplina, int campo)
         {
-            String commandText = "SELECT a.Nome, a.Cognome, q.* from Atleti a join Semifinali q on a.Id = q.IdAtleta  WHERE IdTorneo = " + idTorneo + " and IdDisciplina = " + idDisciplina + "and Campo = " + campo + " ORDER BY Posizione ASC";
+            String commandText = "SELECT a.Nome, a.Cognome, q.* from Atleti a join Semifinali q on a.Id = q.IdAtleta  WHERE IdTorneo = " 
+                + idTorneo + " and IdDisciplina = " + idDisciplina + "and Campo = " + campo + " ORDER BY Posizione ASC";
 
             SqlConnection c = null;
             List<AtletaEliminatorie> list = new List<AtletaEliminatorie>();
@@ -1289,9 +1290,55 @@ namespace WindowsFormsApplication1
 
             return list;
         }
+
+        public static List<AtletaEliminatorie> GetSemifinali(int idTorneo, int idDisciplina)
+        {
+            String commandText = "SELECT a.Nome, a.Cognome, q.* from Atleti a join Semifinali q on a.Id = q.IdAtleta  WHERE IdTorneo = " 
+                + idTorneo + " and IdDisciplina = " + idDisciplina + " ORDER BY Posizione ASC";
+
+            SqlConnection c = null;
+            List<AtletaEliminatorie> list = new List<AtletaEliminatorie>();
+
+            try
+            {
+                c = new SqlConnection(GetConnectionString());
+
+                c.Open();
+
+                SqlCommand command = new SqlCommand(commandText, c);
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    list.Add(new AtletaEliminatorie()
+
+                    {
+                        IdAtleta = (int)reader["IdAtleta"],
+                        IdTorneo = (int)reader["IdTorneo"],
+                        idDisciplina = (int)reader["IdDisciplina"],
+                        Posizione = (int)reader["Posizione"],
+                        Nome = (String)reader["Nome"],
+                        Cognome = (String)reader["Cognome"]
+                    });
+                }
+
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                c.Close();
+            }
+
+            return list;
+        }
+
         public static List<AtletaEliminatorie> GetQuarti(int idTorneo, int idDisciplina, int campo)
         {
-            String commandText = "SELECT a.Nome, a.Cognome, q.* from Atleti a join Qualificati8 q on a.Id = q.IdAtleta  WHERE IdTorneo = " + idTorneo + " and IdDisciplina = " + idDisciplina + "and Campo = " + campo + " ORDER BY Posizione ASC";
+            String commandText = "SELECT a.Nome, a.Cognome, q.* from Atleti a join Qualificati8 q on a.Id = q.IdAtleta  WHERE IdTorneo = " 
+                + idTorneo + " and IdDisciplina = " + idDisciplina + "and Campo = " + campo + " ORDER BY Posizione ASC";
 
             SqlConnection c = null;
             List<AtletaEliminatorie> list = new List<AtletaEliminatorie>();
@@ -1365,11 +1412,12 @@ namespace WindowsFormsApplication1
             }
             catch (Exception e)
             {
-
+                return new List<AtletaEliminatorie>();
             }
             finally
             {
-                c.Close();
+                if(c != null)
+                    c.Close();
             }
 
             return list;

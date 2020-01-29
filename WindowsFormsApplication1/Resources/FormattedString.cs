@@ -642,6 +642,352 @@ namespace WindowsFormsApplication1
 	"</TBODY></TABLE></BODY></HTML>";
         #endregion
 
+        #region TableT6
+        public static String tableT6 = "<HTML><HEAD><link rel=Stylesheet href=\".\\CSS\\stylesheet.css\"></HEAD>" +
+"<BODY>" +
+"<TABLE FRAME=VOID CELLSPACING=0 COLS=12 RULES=NONE BORDER=0>" +
+    "<COLGROUP><COL WIDTH=16><COL WIDTH=144><COL WIDTH=162><COL WIDTH=63><COL WIDTH=10><COL WIDTH=66><COL WIDTH=68><COL WIDTH=173><COL WIDTH=61><COL WIDTH=29><COL WIDTH=85><COL WIDTH=21></COLGROUP>" +
+    "<TBODY>" +
+        "<TR>" +
+            "<TD COLSPAN=11 WIDTH=877 HEIGHT=118 ALIGN=CENTER VALIGN=MIDDLE><BR><IMG SRC=\"img-logo-big.png\" WIDTH=525 HEIGHT=101 HSPACE=121 VSPACE=8>" +
+            "</TD>" +
+            "<TD WIDTH=21 ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD COLSPAN=11 HEIGHT=17 ALIGN=CENTER VALIGN=MIDDLE><B><FONT FACE=\"Century\">##TOURNAMENTNAME##</FONT></B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD COLSPAN=11 HEIGHT=17 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"43165\" SDNUM=\"1033;0;NNNNMMMM DD, YYYY\"><B><FONT FACE=\"Century\">##TournamentDate##</FONT></B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD COLSPAN=11 HEIGHT=94 ALIGN=CENTER VALIGN=TOP><B><FONT FACE=\"Century\" SIZE=6>##NomeGirone##</FONT></B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-right: 1px solid #000000\" HEIGHT=17 ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=CENTER VALIGN=MIDDLE><B>Nome</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=CENTER><B>Vittorie</B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=CENTER><B>Sconfitte</B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B>Punti Fatti</B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B>P. Subiti</B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE><B>Differenziale</B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-bottom: 1px solid #000000\" HEIGHT=10 ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=27 ALIGN=LEFT SDVAL=\"1\" SDNUM=\"1033;\"><FONT SIZE=1>1</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=LEFT VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT>##Atleta_a_nome##</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=27 ALIGN=LEFT SDVAL=\"2\" SDNUM=\"1033;\"><FONT SIZE=1>2</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=LEFT VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT>##Atleta_b_nome##</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=27 ALIGN=LEFT SDVAL=\"3\" SDNUM=\"1033;\"><FONT SIZE=1>3</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=LEFT VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT>##Atleta_c_nome##</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=27 ALIGN=LEFT SDVAL=\"4\" SDNUM=\"1033;\"><FONT SIZE=1>4</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=LEFT VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT>##Atleta_d_nome##</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=27 ALIGN=LEFT SDVAL=\"5\" SDNUM=\"1033;\"><FONT SIZE=1>5</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=LEFT VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT>##Atleta_e_nome##</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=27 ALIGN=LEFT SDVAL=\"4\" SDNUM=\"1033;\"><FONT SIZE=1>4</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=3 ALIGN=LEFT VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT>##Atleta_f_nome##</B></TD>" +
+            "<TD STYLE=\"border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=RIGHT SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+
+        "<TR>" +
+            "<TD HEIGHT=17 ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=20 ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=10 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3>Incontri</FONT></B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=10 ALIGN=CENTER VALIGN=MIDDLE><B><FONT SIZE=3><BR></FONT></B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+        "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 HEIGHT=17 ALIGN=CENTER VALIGN=MIDDLE><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT>Punti</TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT>Doppia Morte<BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=CENTER VALIGN=MIDDLE><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT>Punti</TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"1\" SDNUM=\"1033;\"><FONT SIZE=1>1</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##a##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##b##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"2\" SDNUM=\"1033;\"><FONT SIZE=1>2</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##c##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##d##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"3\" SDNUM=\"1033;\"><FONT SIZE=1>3</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##e##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##f##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"4\" SDNUM=\"1033;\"><FONT SIZE=1>4</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##a##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##d##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"5\" SDNUM=\"1033;\"><FONT SIZE=1>5</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##b##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##c##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"6\" SDNUM=\"1033;\"><FONT SIZE=1>6</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##d##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##f##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"7\" SDNUM=\"1033;\"><FONT SIZE=1>7</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##c##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##e##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"8\" SDNUM=\"1033;\"><FONT SIZE=1>8</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##b##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##f##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"9\" SDNUM=\"1033;\"><FONT SIZE=1>9</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##a##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##c##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"10\" SDNUM=\"1033;\"><FONT SIZE=1>10</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##d##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##e##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"10\" SDNUM=\"1033;\"><FONT SIZE=1>10</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##c##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##f##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"10\" SDNUM=\"1033;\"><FONT SIZE=1>10</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##a##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##e##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"10\" SDNUM=\"1033;\"><FONT SIZE=1>10</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##b##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##d##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"10\" SDNUM=\"1033;\"><FONT SIZE=1>10</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##a##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##f##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" HEIGHT=33 ALIGN=RIGHT SDVAL=\"10\" SDNUM=\"1033;\"><FONT SIZE=1>10</FONT></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=2 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##b##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><B><FONT FACE=\"Century\" SIZE=3><BR></FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=4 ALIGN=LEFT VALIGN=MIDDLE SDVAL=\"0\" SDNUM=\"1033;\"><B><FONT FACE=\"Century\">##e##</FONT></B></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=25 ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD COLSPAN=2 ALIGN=CENTER VALIGN=MIDDLE><B><FONT FACE=\"Century\" SIZE=4><BR></FONT></B></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=17 ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" ROWSPAN=2 ALIGN=CENTER VALIGN=MIDDLE>Terna Arbitrale</TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=9 ROWSPAN=2 ALIGN=CENTER VALIGN=MIDDLE><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=17 ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=17 ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+            "<TD HEIGHT=17 ALIGN=LEFT><BR></TD>" +
+            "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=10 ALIGN=CENTER VALIGN=MIDDLE>Firme per accettazione risultati</TD>" +
+            "<TD ALIGN=LEFT><BR></TD>" +
+        "</TR>" +
+        "<TR>" +
+           "<TD HEIGHT=6 ALIGN=LEFT><BR></TD>" +
+           "<TD STYLE=\"border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000\" COLSPAN=10 ROWSPAN=4 ALIGN=LEFT VALIGN=LEFT><BR>" +
+           "<BR>" +
+           "<BR>" +
+           "<BR>" +
+           "<BR>" +
+           "</TD>" +
+        "</TR>" +
+    "</TBODY></TABLE></BODY></HTML>";
+        #endregion
 
         #region eliminazioni dirette
 

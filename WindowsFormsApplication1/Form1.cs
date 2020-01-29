@@ -1016,11 +1016,9 @@ namespace WindowsFormsApplication1
 
         private void buttonNextFase_Click(object sender, EventArgs e)
         {
-            atletiAmmessiEliminatorie = numeroAtletiTorneoDisciplina >= 54 ? 32
-                :
-                numeroAtletiTorneoDisciplina >= 24 ? 
-                16
-                : 8;
+            atletiAmmessiEliminatorie = numeroAtletiTorneoDisciplina >= 54 ? 32 :
+                numeroAtletiTorneoDisciplina >= 24 ? 16 :
+                numeroAtletiTorneoDisciplina >= 12 ? 8 : 4;
 
             Form validaAtleti = new ValidaEliminatorie(caricaGironi.IdTorneo, caricaGironi.IdDisciplina, atletiAmmessiEliminatorie);
             validaAtleti.StartPosition = FormStartPosition.CenterScreen;
@@ -1038,12 +1036,6 @@ namespace WindowsFormsApplication1
             }
             else if ((sender as Form).DialogResult == DialogResult.OK)
             {
-                Helper.DeleteAllSedicesimi(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllOttavi(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllQuarti(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllSemifinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllFinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-
                 if (atletiAmmessiEliminatorie == 32)
                 {
 
@@ -1190,7 +1182,32 @@ namespace WindowsFormsApplication1
                     quarti.Show();
                     faseSuccessiva = 4;
                 }
+                else if (atletiAmmessiEliminatorie == 4)
+                {
+                    List<AtletaEliminatorie> allAtleti = Helper.GetSemifinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
 
+                    if (allAtleti.Count == 4)
+                    {
+                        List<AtletaEliminatorie> campo1 = new List<AtletaEliminatorie>();
+                        List<AtletaEliminatorie> campo2 = new List<AtletaEliminatorie>();
+                        
+                        #region campo1
+                        campo1.Add(allAtleti.ElementAt(0));
+                        campo1.Add(allAtleti.ElementAt(3));
+                        #endregion
+                        #region campo2
+                        campo2.Add(allAtleti.ElementAt(1));
+                        campo2.Add(allAtleti.ElementAt(2));
+                        #endregion
+
+                        Form semifinali = new Semifinali(campo1, campo2, caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
+
+                        semifinali.StartPosition = FormStartPosition.CenterScreen;
+
+                        semifinali.Show();
+                        faseSuccessiva = 2;
+                    }
+                }
             }
             else if ((sender as Form).DialogResult == DialogResult.Abort)
             {
