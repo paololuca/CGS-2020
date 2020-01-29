@@ -194,3 +194,4 @@ H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\W
 H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
 H:\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
