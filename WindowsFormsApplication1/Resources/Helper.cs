@@ -1562,7 +1562,7 @@ namespace WindowsFormsApplication1
             String commandText = "SELECT a.Cognome, a.Nome, g.*, r.Posizionamento, r.Punteggio FROM Gironi g join Atleti a on a.Id = g.IdAtleta " +
                                     "JOIN Ranking r on r.IdAtleta = a.Id " +
                                     "WHERE g.IdTorneo = " + idTorneo + " and g.IdDisciplina = " + idDisciplina + " AND r.IdDisciplina = " + idDisciplina +
-                                    " order by g.Differenziale desc, g.Vittorie desc, g.PuntiFatti desc , g.PuntiSubiti desc  ";
+                                    " order by g.Differenziale desc, g.Vittorie desc, g.PuntiFatti desc , g.PuntiSubiti asc, r.Punteggio asc  ";
 
             SqlConnection c = null;
 

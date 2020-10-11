@@ -1016,16 +1016,22 @@ namespace WindowsFormsApplication1
 
         private void buttonNextFase_Click(object sender, EventArgs e)
         {
-            atletiAmmessiEliminatorie = numeroAtletiTorneoDisciplina >= 54 ? 32 :
-                numeroAtletiTorneoDisciplina >= 24 ? 16 :
-                numeroAtletiTorneoDisciplina >= 12 ? 8 : 4;
+            if (MessageBox.Show("Stai per cancellare TUTTE le fasi ad eliminazione diretta per il torneo in atto.\n\n Procedere?", "Attenzione",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                DeleteAllPahases();
 
-            Form validaAtleti = new ValidaEliminatorie(caricaGironi.IdTorneo, caricaGironi.IdDisciplina, atletiAmmessiEliminatorie);
-            validaAtleti.StartPosition = FormStartPosition.CenterScreen;
+                atletiAmmessiEliminatorie = numeroAtletiTorneoDisciplina >= 54 ? 32 :
+                    numeroAtletiTorneoDisciplina >= 24 ? 16 :
+                    numeroAtletiTorneoDisciplina >= 12 ? 8 : 4;
 
-            validaAtleti.FormClosing += new FormClosingEventHandler(creaEliminatorie_FormClosed);
+                Form validaAtleti = new ValidaEliminatorie(caricaGironi.IdTorneo, caricaGironi.IdDisciplina, atletiAmmessiEliminatorie);
+                validaAtleti.StartPosition = FormStartPosition.CenterScreen;
 
-            validaAtleti.Show();
+                validaAtleti.FormClosing += new FormClosingEventHandler(creaEliminatorie_FormClosed);
+
+                validaAtleti.Show();
+            }
         }
 
         void creaEliminatorie_FormClosed(object sender, FormClosingEventArgs e)
@@ -1486,12 +1492,17 @@ namespace WindowsFormsApplication1
             if (MessageBox.Show("Stai per cancellare TUTTE le fasi ad eliminazione diretta per il torneo in atto.\n\n Procedere?", "Attenzione",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
             {
-                Helper.DeleteAllSedicesimi(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllOttavi(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllQuarti(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllSemifinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
-                Helper.DeleteAllFinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
+                DeleteAllPahases();
             }
+        }
+
+        private void DeleteAllPahases()
+        {
+            Helper.DeleteAllSedicesimi(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
+            Helper.DeleteAllOttavi(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
+            Helper.DeleteAllQuarti(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
+            Helper.DeleteAllSemifinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
+            Helper.DeleteAllFinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
         }
     }
 }
