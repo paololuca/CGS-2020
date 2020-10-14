@@ -1508,6 +1508,7 @@ namespace WindowsFormsApplication1
         private void sincronizzaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             HemaRatingsHelper.SyncFigthersAsync();
+            HemaRatingsHelper.SyncClubsAsync();
         }
     }
 }
