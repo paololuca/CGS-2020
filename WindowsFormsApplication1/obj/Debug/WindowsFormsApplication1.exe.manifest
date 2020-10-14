@@ -85,7 +85,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2AwRxJTVk37DE5IZdu2f1LpJB9r8ANEFLP8jW+p8C68=</dsig:DigestValue>
+        <dsig:DigestValue>30jSTVepYDQMUjeP7YU9iVJQz0BUVFTXtk1ljjRwBqo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -122,7 +122,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kq5rd4+64HclRebJNlHGo7Wi2AcZ8rsl4ReGburz7hE=</dsig:DigestValue>
+      <dsig:DigestValue>4p125NVvW1Kn+XLAXod6XGugdZUuEuoyDuHerzoYePY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Tornei_log.ldf" size="8388608" writeableType="applicationData">
@@ -131,7 +131,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>LzKCacTop9uqwQrnlIEq0FLEnVesnARDij7cuNgVQYE=</dsig:DigestValue>
+      <dsig:DigestValue>2yRsk+8/sRJQ7MI6rmtMCRxfXFDQ50bMKVFBWG+pWls=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiFemminile.mdf" size="8388608" writeableType="applicationData">
