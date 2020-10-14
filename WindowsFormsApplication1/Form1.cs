@@ -1504,5 +1504,10 @@ namespace WindowsFormsApplication1
             Helper.DeleteAllSemifinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
             Helper.DeleteAllFinali(caricaGironi.IdTorneo, caricaGironi.IdDisciplina);
         }
+
+        private void sincronizzaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HemaRatingsHelper.SyncFigthersAsync();
+        }
     }
 }

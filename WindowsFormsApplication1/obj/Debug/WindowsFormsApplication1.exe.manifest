@@ -42,6 +42,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HtmlAgilityPack.dll" size="165376">
+      <assemblyIdentity name="HtmlAgilityPack" version="1.11.24.0" publicKeyToken="BD319B19EAF3B43A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>e63/adVQdSgRNS1Pe90J6o89uCYvv0YGSFMY7361mzM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IronPdf.dll" size="32527360">
       <assemblyIdentity name="IronPdf" version="4.4.0.26167" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -66,17 +78,35 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication1.exe" size="2816000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication1.exe" size="2818560">
       <assemblyIdentity name="WindowsFormsApplication1" version="3.2020.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>l376bB844kaMhkyYLeFr44uXad6Bqj185/KOdgbOVlQ=</dsig:DigestValue>
+        <dsig:DigestValue>2NL5+QDqa4tmNopQoMp4TGOt69yCmxZL0tWKvrtBn8s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="HemaRatings.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JnjZIA33RxU7/and60hOhANPMp4nf5VJWx7gMrFxiuU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HemaRatings_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kwUL8Mzr3lSutXbhN5mpeFsRn3kcao7ZxujFSjItVYw=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="img\online.png" size="46376">
     <hash>
       <dsig:Transforms>
@@ -110,7 +140,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>nK7mjIJajMtgsxuT+Dmx+L01OnQvArBG0uRPtHwjcB0=</dsig:DigestValue>
+      <dsig:DigestValue>c4Cr1YKtbFtH+boP645UjlCsFLIXZMSPitmB+KKelRI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Tornei_log.ldf" size="8388608" writeableType="applicationData">
@@ -119,7 +149,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Z6wZa6ngrUy9Td7g1rGd+q1QHKFLpEbAbWPe5w++zHQ=</dsig:DigestValue>
+      <dsig:DigestValue>UgM8VI4nmTnYAc6hcrEB/T3p54p+L0XrWV4t9jwpg8E=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiFemminile.mdf" size="8388608" writeableType="applicationData">
@@ -128,7 +158,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KnANs/OJETJ0lLIxuQ1cz7+Nqh8cm4UPo6uOji2zDeQ=</dsig:DigestValue>
+      <dsig:DigestValue>X/oGZvqQf7MIYZfOo7XULz84wlvRbcdmHhxSvV1vjIk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiFemminile_log.ldf" size="8388608" writeableType="applicationData">
@@ -137,7 +167,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>enLs4kimm2uQmIVh9z2GJgKxwb4PZnL3Scnn7ts7/io=</dsig:DigestValue>
+      <dsig:DigestValue>+3tbaiWOX6tK2R2wVwR8eXiJrEJ+Es8iHdilrg7uHWw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiTest.mdf" size="8388608" writeableType="applicationData">
@@ -146,7 +176,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1TWDJEr8w6oPFXalaHBNfcs3qGJAsk0LH+YEXukmkf4=</dsig:DigestValue>
+      <dsig:DigestValue>kv0pOWY0V1wHu1eBLYg9un2pBsxb3IOYrcWCjP61VPc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiTest_log.ldf" size="8388608" writeableType="applicationData">
@@ -155,16 +185,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>RBorhptRUf1UdUdEYXDuWIo0ivfvAoDxMJtfxldJFhU=</dsig:DigestValue>
+      <dsig:DigestValue>z861pTYECvLjitm6i4lPsnG2vg8X5uziEnXvFV+aMDo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WindowsFormsApplication1.exe.config" size="1825">
+  <file name="WindowsFormsApplication1.exe.config" size="1801">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>PAUQ5iI1QkrZ63QqTsgv4fJWI5wNy3Rte5vBtpavEec=</dsig:DigestValue>
+      <dsig:DigestValue>Q98FbUXRw1vKJo38OeUSCJ0Rt/GNCYk7pnCVmRwvxgQ=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
