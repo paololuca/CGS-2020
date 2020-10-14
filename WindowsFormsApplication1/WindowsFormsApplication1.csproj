@@ -93,6 +93,7 @@
     <Compile Include="AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Anagrafiche\HemaRatingsFighter.cs" />
     <Compile Include="Managment\AddAnagraphic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -362,13 +363,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\bracket16.png" />
-    <Content Include="HemaRatings.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="HemaRatings_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>HemaRatings.mdf</DependentUpon>
-    </Content>
     <Content Include="img\online.png" />
     <Content Include="src\IronPdf.dll" />
     <Content Include="src\IronPdf.XML" />

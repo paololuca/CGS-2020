@@ -198,8 +198,6 @@ D:\_cgs\Gestionale SAAM\WindowsFormsApplication1\WindowsFormsApplication1\obj\De
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.PwdCheck.resources
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Settings.resources
 E:\Project\test\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.ReportAtleti.resources
-D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\HemaRatings.mdf
-D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\HemaRatings_log.ldf
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\Tornei.mdf
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\TorneiFemminile.mdf
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\TorneiFemminile_log.ldf
@@ -217,7 +215,6 @@ D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\NRec
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\HtmlAgilityPack.pdb
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\HtmlAgilityPack.xml
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\bin\Debug\IronPdf.xml
-D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AboutBox.resources
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddAnagraphicUser.resources
@@ -252,3 +249,4 @@ D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\Wind
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CopyComplete
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\_cgs\Gestionale SAAM\WIP DEV\CGS-2020\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
