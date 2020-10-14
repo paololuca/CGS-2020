@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication1.exe" size="2818560">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsApplication1.exe" size="2821120">
       <assemblyIdentity name="WindowsFormsApplication1" version="3.2020.0.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2NL5+QDqa4tmNopQoMp4TGOt69yCmxZL0tWKvrtBn8s=</dsig:DigestValue>
+        <dsig:DigestValue>7OLcGfbdnuFTac0T0do7GoeSfAMWG5kFDPClfuc24xM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -95,7 +95,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JnjZIA33RxU7/and60hOhANPMp4nf5VJWx7gMrFxiuU=</dsig:DigestValue>
+      <dsig:DigestValue>/sX+Woxqnm7BOza5HgGTSLbQ6j89H2+3JkuqBt5Mm4g=</dsig:DigestValue>
     </hash>
   </file>
   <file name="HemaRatings_log.ldf" size="8388608" writeableType="applicationData">
@@ -104,7 +104,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kwUL8Mzr3lSutXbhN5mpeFsRn3kcao7ZxujFSjItVYw=</dsig:DigestValue>
+      <dsig:DigestValue>75WNL+RNgUniuBdUKXwb3ag3koxXHP9OrNzWKBvf5l4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="img\online.png" size="46376">
@@ -140,7 +140,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>c4Cr1YKtbFtH+boP645UjlCsFLIXZMSPitmB+KKelRI=</dsig:DigestValue>
+      <dsig:DigestValue>7JC2GzujQC3jWLLZM8rtIRQZllWWnXlFZv6jMge/heg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Tornei_log.ldf" size="8388608" writeableType="applicationData">
@@ -149,7 +149,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>UgM8VI4nmTnYAc6hcrEB/T3p54p+L0XrWV4t9jwpg8E=</dsig:DigestValue>
+      <dsig:DigestValue>wXjVv1gKFVQWqGkwOFigTxGAn+cw/Mw+pKRB7KY2N9E=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiFemminile.mdf" size="8388608" writeableType="applicationData">
@@ -176,7 +176,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>kv0pOWY0V1wHu1eBLYg9un2pBsxb3IOYrcWCjP61VPc=</dsig:DigestValue>
+      <dsig:DigestValue>uQVa+/S1gyfRLW/oc1ffs7QK2hxQBopmM0/xEA7UemE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="TorneiTest_log.ldf" size="8388608" writeableType="applicationData">
@@ -185,16 +185,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>z861pTYECvLjitm6i4lPsnG2vg8X5uziEnXvFV+aMDo=</dsig:DigestValue>
+      <dsig:DigestValue>KZVGZ5JMLrDagaBKV/8BXv6yZOMSxJiq//QNcS1DEeM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="WindowsFormsApplication1.exe.config" size="1801">
+  <file name="WindowsFormsApplication1.exe.config" size="2001">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Q98FbUXRw1vKJo38OeUSCJ0Rt/GNCYk7pnCVmRwvxgQ=</dsig:DigestValue>
+      <dsig:DigestValue>sUjy5mRcwzD4VUSXtOfC9d1mHrkoUf7F5OokiW+IhyY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
