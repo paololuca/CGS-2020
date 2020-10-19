@@ -93,6 +93,7 @@
     <Compile Include="AboutBox.Designer.cs">
       <DependentUpon>AboutBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Anagrafiche\HemaRatingsClub.cs" />
     <Compile Include="Anagrafiche\HemaRatingsFighter.cs" />
     <Compile Include="Managment\AddAnagraphic.cs">
       <SubType>Form</SubType>
