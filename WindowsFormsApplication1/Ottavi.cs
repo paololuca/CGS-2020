@@ -249,6 +249,8 @@ namespace WindowsFormsApplication1
                 else
                     a.IdAtleta = (int)r.Cells[5].Value;
 
+                //manca il delete quarti by campo
+
                 Helper.UpdateQualificati16(idTorneo, idDisciplina, 1, posizione, (int)r.Cells[0].Value, (int)r.Cells[4].Value, (int)r.Cells[9].Value);
                 Helper.UpdateQualificati16(idTorneo, idDisciplina, 1, posizione, (int)r.Cells[5].Value, (int)r.Cells[9].Value, (int)r.Cells[4].Value);
 
@@ -263,6 +265,7 @@ namespace WindowsFormsApplication1
 
                 posizione++;
             }
+
             Helper.InsertQuarti(listAtleti);
 
             MessageBox.Show("Campo 1 Salvato correttamente", "Successo", MessageBoxButtons.OK, MessageBoxIcon.Information);

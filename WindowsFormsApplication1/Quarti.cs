@@ -211,6 +211,7 @@ namespace WindowsFormsApplication1
 
                 posizione++;
             }
+
             Helper.InsertSemifinali(listAtleti);
 
             MessageBox.Show("Campo 1 Salvato correttamente", "Successo", MessageBoxButtons.OK, MessageBoxIcon.Information);
